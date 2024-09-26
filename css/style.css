@@ -34,18 +34,7 @@ body {
     font-weight: bold;
   }
   
-  p {
-    flex: 1;
-    color: rgb(0, 0, 0);
-    padding-left: 260px;      
-    padding-right: 170px;  
-    font-size: 40px;   
-    font-family: 'Neue Haas Grotesk', sans-serif;   
-    font-weight: bold;
-    text-wrap: balance;
-    }
-  
-  p1 {
+  h4 {
     flex: 1;
     color: rgb(0, 0, 0);
     padding-left: 260px;   
@@ -54,26 +43,18 @@ body {
     font-weight: bold;
     text-wrap: balance;
     }
-  
-  p2 {
+
+    p {
+      flex: 1;
       color: rgb(0, 0, 0);
-      padding-left: 260px;  
-      font-family: 'Neue Haas Grotesk', sans-serif;  
-      font-size: 12px;   
-      text-align: left;  
-      }
-  
-  p3 {
-      color: rgb(0, 0, 0);
-      padding-left: 260px;  
+      padding-left: 260px;      
+      padding-right: 170px;  
+      font-size: 40px;   
       font-family: 'Neue Haas Grotesk', sans-serif;   
-      font-size: 12px;  
-      text-align: center;  
+      font-weight: bold;
+      text-wrap: balance;
       }
   
-  .navbar {
-    padding: 12px;  
-  }
   
   .nav-container {
     display: flex;  
