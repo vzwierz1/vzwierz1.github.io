@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Neue Haas Grotesk', sans-serif;  
+  }
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    padding-top: 140px;
+    font-size: 40px;  
+    padding-left: 260px;     
+    padding-right: 400px;  
+    padding-bottom: 1px;   
+    text-align: left;  
+    font-family: 'Neue Haas Grotesk', sans-serif;  
+    font-weight: bold;
+  }
+  
+  h2 {
+    color: rgb(0, 0, 0);
+    font-size: 15px;  
+    padding-left: 260px;   
+    text-align: left;  
+    font-family: 'Neue Haas Grotesk', sans-serif;  
+    font-weight: bold;
+  }
+  
+  h3 {
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+    font-size: 30px;  
+    padding-left: 260px;     
+    text-align: left;  
+    font-family: 'Neue Haas Grotesk', sans-serif;  
+    font-weight: bold;
+  }
+  
+  p {
+    flex: 1;
+    color: rgb(0, 0, 0);
+    padding-left: 260px;      
+    padding-right: 170px;  
+    font-size: 40px;   
+    font-family: 'Neue Haas Grotesk', sans-serif;   
+    font-weight: bold;
+    text-wrap: balance;
+    }
+  
+  p1 {
+    flex: 1;
+    color: rgb(0, 0, 0);
+    padding-left: 260px;   
+    font-size: 12px;   
+    font-family: 'Neue Haas Grotesk', sans-serif;   
+    font-weight: bold;
+    text-wrap: balance;
+    }
+  
+  p2 {
+      color: rgb(0, 0, 0);
+      padding-left: 260px;  
+      font-family: 'Neue Haas Grotesk', sans-serif;  
+      font-size: 12px;   
+      text-align: left;  
+      }
+  
+  p3 {
+      color: rgb(0, 0, 0);
+      padding-left: 260px;  
+      font-family: 'Neue Haas Grotesk', sans-serif;   
+      font-size: 12px;  
+      text-align: center;  
+      }
+  
+  .navbar {
+    padding: 12px;  
+  }
+  
+  .nav-container {
+    display: flex;  
+    justify-content: center;  
+  }
+  
+  .nav-link {
+    color: rgb(0, 0, 0);
+    padding: 30px 179px;  
+    text-decoration: none;  
+    font-size: 12px;  
+    font-weight: bold;
+  }
+  
+  /* Used AI to help adjust and confirm the correct placement of the image*/
+  .image-container img {
+    position: absolute; 
+    top: 80px; 
+    bottom: 2px; 
+    left: 270px; 
+    width: 680px; 
+    height: auto; 
+  }
+  
