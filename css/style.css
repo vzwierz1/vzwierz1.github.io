@@ -17,7 +17,7 @@ body {
   h2 {
     color: rgb(0, 0, 0);
     font-size: 15px;  
-    padding-left: 260px;   
+    padding-left: 80px;   
     text-align: left;  
     font-family: 'Neue Haas Grotesk', sans-serif;   
   }
@@ -26,7 +26,7 @@ body {
     color: rgb(0, 0, 0);
     padding-top: 10px;
     font-size: 30px;  
-    padding-left: 260px;     
+    padding-left: 80px;     
     text-align: left;  
     font-family: 'Neue Haas Grotesk', sans-serif;  
 
@@ -39,6 +39,14 @@ body {
     font-size: 12px;   
     font-family: 'Neue Haas Grotesk', sans-serif;   
     text-wrap: balance;
+    }
+
+    h5 {
+      color: rgb(0, 0, 0);
+      font-size: 15px;  
+      padding-left: 280px;   
+      text-align: left;  
+      font-family: 'Neue Haas Grotesk', sans-serif;   
     }
 
   p {
@@ -104,6 +112,6 @@ body {
 
 
 #barchart1, #barchart2, #barchart3, #barchart4, #barchart5, #barchart6, #barchart7, #barchart8 {
-  padding-left: 120px;    
+  padding-left: 80px;    
 
 }

@@ -73,7 +73,7 @@ async function render() {
         vl.color().fieldN('Genre').scale({scheme: 'tableau10'}),
         vl.tooltip().fieldN('Genre')
         )
-        .width(410)
+        .width(450)
         .height(550)
         .toSpec();
 
@@ -96,7 +96,7 @@ async function render() {
             vl.color().fieldN('Platform').scale({scheme: 'spectral'}),
             vl.tooltip().fieldN('Platform')
         )
-        .width(410)
+        .width(450)
         .height(550)
         .toSpec();
 
