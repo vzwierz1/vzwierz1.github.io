@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite-api@5.6.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-tooltip"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+
+    <title>vanessa zwierzchowski - assignment 3</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script>
+        
+        const options = {
+           config: {
+           },
+
+           init: (view) => {
+             view.tooltip(new vegaTooltip.Handler().call);
+           },
+           view: {
+             loader: vega.loader({
+               baseURL: "https://cdn.jsdelivr.net/npm/vega-datasets@2/",
+             }),
+             renderer: "canvas",
+           },
+         };
+   
+         // registering vega and vega-lite using API
+         vl.register(vega, vegaLite, options);
+         </script>
+
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <a href="index.html" class="nav-link">vanessa zwierzchowski</a>
+                <a href="experience.html" class="nav-link">resume</a>
+                <a href="visualization.html" class="nav-link">assignment no.2</a>
+                <a href="assignment3.html" class="nav-link">assignment no.3</a>
+            </div>
+        </nav>
+ 
+            <h3>assignment no.3 visualizations</h3>  
+
+            <!-- organizer-->   
+            <hr style="border: none; height: 2px; background-color: #c7c7c7; width: 100%; margin: 20px 0">
+            <h3 style="color: #c7c7c7;"> global sales by genre and platform</h3>  
+
+            <!-- start of visual 1-->
+            <section>
+                <div style="display: flex; justify-content: flex-start; gap: 65px; padding-bottom: 10px;">
+                    <h2 >visualization 1a: global sales by genre</h2>
+                    <h2 >visualization 1b: global sales by platform</h2>
+                </div>
+                <div id="barchart1"></div> 
+                <div id="barchart2"></div> 
+            </section>
+            
+  
+
+            <!--  start of visual 2-->      
+            <!-- organizer--> 
+            <hr style="border: none; height: 2px; background-color: #c7c7c7; width: 100%; margin: 20px 0">
+            <h3 style="color: #c7c7c7;">sales over time by platform and genre</h3>  
+
+            <section>
+                <div style="display: flex; justify-content: flex-start; gap: 65px; padding-bottom: 10px;">
+                    <h2 >visualization 2a: sales over time by genre</h2>
+                    <h2 >visualization 2b: sales over time by platform</h2>
+                </div>
+                <div id="barchart3"></div> 
+                <div id="barchart4"></div> 
+            </section>
+
+            <!-- organizer-->   
+            <hr style="border: none; height: 2px; background-color: #c7c7c7; width: 100%; margin: 20px 0">
+            <h3 style="color: #c7c7c7;">regional sales vs. platform</h3>
+
+            <!--  start of visual 3-->    
+              
+            <section>
+                <div style="display: flex; justify-content: flex-start; gap: 65px; padding-bottom: 10px;">
+                    <h2 >visualization 3a: north american sales by platform</h2>
+                    <h2 >visualization 3b: europe sales by platform</h2>
+                </div>
+                <!--  first 2 graphs-->  
+                <div id="barchart5"></div> 
+                <div id="barchart6"></div> 
+            </section>
+
+             <!-- other 2 graphs: total 4 for visuals 3-->  
+             <section>
+                <div style="display: flex; justify-content: flex-start; gap: 65px; padding-bottom: 10px;">
+                    <h2 >visualization 3c: japan sales by platform</h2>
+                    <h2 >visualization 3d: other regions sales by platform</h2>
+                </div>
+                <div id="barchart7"></div> 
+                <div id="barchart8"></div> 
+            </section>
+
+
+            <!-- organizer-->   
+            <hr style="border: none; height: 2px; background-color: #c7c7c7; width: 100%; margin: 20px 0">
+            <h3 style="color: #c7c7c7;"> telling a story</h3>  
+
+            <!--  start of visual 4-->  
+            <h2>visualization 4: europe ????</h2>
+
+            
+        </div>
+
+        <script type="module" src="js/animation.js"></script>
+
+    </body>
+    </html>
+    

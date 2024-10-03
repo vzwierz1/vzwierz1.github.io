@@ -19,7 +19,7 @@ body {
     font-size: 15px;  
     padding-left: 260px;   
     text-align: left;  
-    font-family: 'Neue Haas Grotesk', sans-serif;  
+    font-family: 'Neue Haas Grotesk', sans-serif;   
   }
   
   h3 {
@@ -59,7 +59,7 @@ body {
   
   .nav-link {
     color: rgb(0, 0, 0);
-    padding: 30px 179px;  
+    padding: 30px 110px;  
     text-decoration: none;  
     font-size: 12px;  
     font-weight: bold;
@@ -100,4 +100,10 @@ body {
 
 .triangle:nth-of-type(3) {
     transform-origin: 600px 120px; /
+}
+
+
+#barchart1, #barchart2, #barchart3, #barchart4, #barchart5, #barchart6, #barchart7, #barchart8 {
+  padding-left: 120px;    
+
 }
