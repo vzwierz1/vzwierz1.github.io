@@ -53,8 +53,8 @@ async function render() {
         .toSpec();
 
         vegaEmbed("#barchart2", vlSpec2).then((result) => {
-        const view = result.view;
-        view.run();
+            const view = result.view;
+            view.run();
         });
 
     // end of visual 1
@@ -78,8 +78,8 @@ async function render() {
         .toSpec();
 
         vegaEmbed("#barchart3", vlSpec3).then((result) => {
-        const view = result.view;
-        view.run();
+            const view = result.view;
+            view.run();
         });
 
     // visualization 2b: sales over time by genre 
@@ -101,8 +101,8 @@ async function render() {
         .toSpec();
 
         vegaEmbed("#barchart4", vlSpec4).then((result) => {
-        const view = result.view;
-        view.run();
+            const view = result.view;
+            view.run();
         });
          // end of visual 2
 
@@ -177,26 +177,53 @@ async function render() {
             view.run();
         });
       
-    }
-
-    // end of visual 3
-
-    // start of visual 4: telling a story
 
 
+        // end of visual 3
+
+        // start of visual 4: telling a story
+        // visual 4a peak sales in japan by year
+        const vlSpecJapan = vl
+            .markLine({ color: 'purple' }) 
+            .data(data) 
+            .encode(
+                vl.x().fieldN('Year'),
+                vl.y().fieldQ('JP_Sales').aggregate('sum'),
+            )
+            .width(550) 
+            .height(300) 
+            .toSpec(); 
+
+        vegaEmbed("#barchartJapan", vlSpecJapan).then((result) => {
+            const view = result.view; 
+            view.run(); 
+
+});
+
+
+        // visual 4b peak sales in europe by year
+        const vlSpecEuro = vl
+        .markLine({ color: 'orange' }) 
+        .data(data) 
+        .encode(
+            vl.x().fieldN('Year'),
+            vl.y().fieldQ('EU_Sales').aggregate('sum'),
+        )
+        .width(550) 
+        .height(300) 
+        .toSpec(); 
+
+    vegaEmbed("#barchartEuro", vlSpecEuro).then((result) => {
+        const view = result.view; 
+        view.run(); 
+
+});
 
 
 
 
 
-
-
-
-
-
-
-
-
+}
 
 // render all the visuals
 render();

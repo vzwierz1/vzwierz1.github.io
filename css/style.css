@@ -111,7 +111,11 @@ body {
 }
 
 
-#barchart1, #barchart2, #barchart3, #barchart4, #barchart5, #barchart6, #barchart7, #barchart8 {
+/* styling for the bar charts */
+
+#barchart1, #barchart2, #barchart3, 
+#barchart4, #barchart5, #barchart6, 
+#barchart7, #barchart8, #barchartJapan, #barchartEuro {
   padding-left: 80px;    
 
 }
